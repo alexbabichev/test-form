@@ -1,0 +1,56 @@
+.appForm {
+  display: grid;
+  row-gap: 20px;
+
+  margin-bottom: 30px;
+}
+
+.formControl {
+  position: relative;
+}
+
+.formGroup {
+  display: flex;
+  align-items: center;
+}
+.formGroup input:not(:last-child) {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.formGroup input:not(:first-child) {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.creditCardField {
+  background-image: url(https://www.trzcacak.rs/myfile/detail/206-2060307_electronic-credit-cards-credit-card-icon-jpg.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center  left 10px;
+
+  padding-left: 50px !important;
+}
+.creditCardField + label {
+  left: 50px !important;
+}
+
+.summField {
+  width: 50% !important;
+}
+
+.button {
+  width: 100%;
+  padding: 12px 15px;
+  padding-bottom: 16px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  color: gray;
+
+  background-color: yellow;
+  border: none;
+  border-radius: 3px;
+}
